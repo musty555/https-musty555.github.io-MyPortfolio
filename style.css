@@ -17,15 +17,13 @@ nav{
     display: flex;
     width: 100%;
     margin: auto;
-    padding: 10px 0;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
     /* position: fixed; */
 }
 
-.navbar img{
-    position: relative;
-}
+
 
 nav ul li{
     display: inline-block;
@@ -55,7 +53,7 @@ nav ul li a:hover{
     background-position: right;
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 70px 10% ;
 }
 
 .home-content h1{
@@ -71,7 +69,6 @@ nav ul li a:hover{
 }
 
 .socials a{
-    /* border: 1px solid #fff; */
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -84,8 +81,7 @@ nav ul li a:hover{
 #services{
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
-
+  
 }
 
 .sub-title{
@@ -94,12 +90,9 @@ nav ul li a:hover{
     margin-top: 10%;
     
 }
-.container{
-    padding: 90px;
-}
+
 
 .service-list{
-    /* border: 1px solid #fff; */
     margin-top: 30px;
     margin-left: 10%;
     display: grid;
@@ -129,12 +122,10 @@ nav ul li a:hover{
 .service-list div a{
     text-decoration: none;
     font-size: 12px;
-    display: inline-block;
     
 }
 
 .read{
-    display: inline-block;
     padding: 5px 5px;
     background: #F26C4F;
     border-radius: 40px;
@@ -163,7 +154,6 @@ nav ul li a:hover{
 }
 .details{
     display: grid;
-    grid-template-rows: 150px 15p  ;
     grid-template-columns: 150px 150px;
     line-height: 20px;
     
@@ -250,7 +240,7 @@ nav ul li a:hover{
     font-size: 12px;
     top: -35px;
     right: 0;
-    color: #fff;
+    color: #0e0d0d;
     
 }
 
@@ -295,32 +285,24 @@ nav ul li a:hover{
 
 .form{
     margin-left: 20%;
-
 }
 
 div7{
     display:flex;
-    justify-self: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    width: 730px;
 
 }
 
 input{
     background-color: rgb(32, 29, 29);
     width: 70%;
-    height: 25px;
     margin-left: 5%;
     color: white;
-    padding: 10px 10px;
     border-radius: 2px;
     border-color: aliceblue;
     height: 40px;
 }
 
 .subject{
-    margin-left: 36px;
     width: 700px;
 }
 .message{
